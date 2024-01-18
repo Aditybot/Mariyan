@@ -59,16 +59,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⚡ 𝚳𖽞𖽡𖽪💋 ",
+                text="◉ ᴍᴇɴᴜ ",
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="💋 𝚶𖽮𖽡𖽞𖽸🌟 ", url=f"https://t.me/Adity144"
+                text="◉ ᴏᴡɴᴇʀ ", url=f"https://t.me/vpvpofficial"
             )
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], url=f"https://t.me/NES_TF144"
+                text=_["CLOSEMENU_BUTTON"], url=f"https://t.me/vp_update"
             )
         ],
     ]
@@ -301,26 +301,26 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🩹𝐏𖾘𖽖ᵧ𝐥ᵢ𖾗𖾓𖾗😼",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="⚡𝛅𖽪𖽳𖽳𐌏𖽸𖾓💋",
+                text=_["S_B_3"],
                 url=f"{config.SUPPORT_GROUP}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⇆ 💛𝐒𐬜𖽪𖾖𖾖𖾘𖾔🥵 ⇆",
+                text="⇆ sʜᴜғғʟᴇ ⇆",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🌟 𝐋𖽙𖽙𖽳 ⚡", callback_data=f"ADMIN Loop|{chat_id}"
+                text="↻ ʟᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⚡𝐁𖽖𖽽𝝹❤️‍🩹",
+                text="↻ ʙᴀᴄᴋ ↻",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -350,7 +350,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="💛𝐂𖾘𖽙𖾗𖽞⚡", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"ADMIN CloseA|{chat_id}"
             )
         ],
     ]
